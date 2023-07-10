@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Isaac",
   subTitle: "Results-driven Computer Science and Data Science student at the University of Oregon with a proven track record of academic excellence. Proficient in software development and machine learning, passionate about leveraging technology to drive innovation. Seeking challenging opportunities to apply my skills and contribute to cutting-edge advancements in the field",
   resumeLink:
-    "https://drive.google.com/file/d/1-ul9QSgb_g2_2sViKbkNx1_DIdTQgBuq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18VVPThSqid5Ci-JKqWnpwWyu0jhK2mVM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
