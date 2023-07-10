@@ -158,7 +158,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Data Science",
       duration: "September 2020 - June 2024",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [" Cumulative GPA 3.35"]
+      descBullets: [" Cumulative GPA 3.75"]
     }
   ]
 };
@@ -190,29 +190,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Support",
+      company: "University of Oregon",
+      companylogo: require("./assets/images/uo_logo.png"),
+      date: "Feb 2023 - Present",
+      desc: "User Support Services will strive to create a consistent customer-focused support experience, ensure a secure IT environment, and provide resources that empower students, faculty, and staff to achieve their diverse goals",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Introduced a solution to recurring printer problems, reducing printer issues by 60%",
+        "Utilized a priority ticket system to fulfill requests promptly and documented the steps taken",
+        "Contributed to a common knowledge base for future tailored self support",
+        "Collaborated effectively in a team, providing timely technical services",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Java Mentor",
+      company: "The NW Advanced Programming Workshop",
+      companylogo: require("./assets/images/generic_logo.jpg"),
+      date: "Jan 2023 - June 2023",
+      desc: "An immersion program for high school students designed to take their understanding of computer science to the next level",
+      descBullets: [
+        "Guided and mentored students in debugging and completing their programming projects",
+        "Documented successful approaches and areas for improvement, enhancing students' understanding",
+        "Designed two Java assignments to teach object-oriented programming concepts",
+        "Continuously evaluated and correct documentation for improved comprehension",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer",
+      company: "University of Oregon",
+      companylogo: require("./assets/images/uo_logo.png"),
+      date: "Apr 2022 - Sep 2022",
+      desc: "Working in partnership with UO schools and colleges, selected vendors, and national credentialing associations, we serve the public by enabling learning outside of the traditional university setting.",
+      descBullets: [
+        "Executed requested edits to meet clients' standards and expectations",
+        "Developed and edited web pages using HTML, CSS, JavaScript, and PHP",
+        "Provided resourceful information and contributed to the team's success",
+        "Automated task management software by integrating calendar data, reducing task creation time by 1 minute",
+      ]
     }
   ]
 };
@@ -232,25 +246,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/iste_logo.png"),
+      projectName: "ISTE",
+      projectDesc: "As a web developer at the University of Oregon, I had the opportunity to work closely with ISTE, our largest client. I enhanced the website's appearance and user experience while managing forms and an SQL database for thousands of conference attendees. Git served as our version control system, and I developed on macOS for a reliable and efficient workflow",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://conference.iste.org/2023/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/generic_logo.jpg"),
+      projectName: "The NW Advanced Programming Workshop",
+      projectDesc: "As a Java mentor at the NW Advanced Programming Workshop, I was responsible for developing course projects for the students. One of the projects involved creating a text-based adventure game in Java, where the objective was to find the combination to a lock by searching for clues within a room. To guide the students, I provided instructions for both a function-based and an object-based approach. Another project I designed was a console-based snake game. Due to the limited resources available on the free version of Replit that our students used, I had to provide a library that enabled the use of limited ASCII graphics within the Replit console. This approach ensured that resources were used sparingly while still allowing for an engaging gaming experience",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://nwapw.org/"
         }
       ]
     }
